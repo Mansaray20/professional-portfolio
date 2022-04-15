@@ -1,0 +1,102 @@
+*
+{
+box-sizing: border-box;
+}
+
+.list-about
+{
+display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.port-folio
+{
+padding-top: 10px;
+    margin-right: 5px;
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.heronav nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  #heroimage{
+    background-image: url("../img/phonto.png");
+height: 200px;
+background-position: center;
+  }
+  .hero-text{
+
+  }
+
+.professional-portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.work-folder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.professional-portfolio > h2 {
+  flex: 0 0 20%;
+}
+.professional-portfolio > div {
+  flex: 0 0 75%;
+}
+.work-file {
+  background-color: rgb(141, 141, 194);
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  flex-basis: calc(50% - 1em);
+  transition: all 0.5s;
+  padding: 50px;
+  margin: 3px;
+}
+.work-file:first-child {
+  height: 500px;
+  flex-basis: 100%;
+}
+#english{
+  background-image: url("english.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+#math{
+  background-image: url("../img/math.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#social-studies{
+  background-image: url("../img/math.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#cooding{
+  background-image: url("../img/cooding.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#computer-science{
+  background-image: url("../img/Dubai.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+body  
+{
+background-color: rgb(190, 211, 231);
+}
